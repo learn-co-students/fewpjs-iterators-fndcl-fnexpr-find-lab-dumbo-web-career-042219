@@ -1,5 +1,5 @@
-const testVar = {}
+function superbowlWin(arr) {
+  let obj = arr.find(record => record["result"] === "W");
 
-function testFunc() {
-  return "hi"
+  return obj ? obj["year"] : obj;
 }
